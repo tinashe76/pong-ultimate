@@ -1,5 +1,6 @@
 # Pong Ultimate v1.0.2
 # By @tinashe76
+# Special thanks to @TokyoEdTech
 
 # PATCH NOTES
 # Fixed a minor bug that caused the ball to pass through the paddle
@@ -9,7 +10,7 @@ import winsound
 import os
 import random
 
-winsound.PlaySound("soundtrack.wav", winsound.SND_ASYNC) 
+winsound.PlaySound("soundtrack.wav", winsound.SND_ASYNC) # file is missing. (add any song of your choice to the current folder and name it soundtrack.wav) 
 quote1 = "FOR THE LOW-END GAMERS"
 quote2 = "CREATED IN ONE NIGHT"
 quote3 = "By ELECTRONIC ARTS"
